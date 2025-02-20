@@ -3,7 +3,7 @@
 // () - define um grupo
 // | - ou
 
-const { texto } = require('./base');
+import { texto } from './base';
 
 const regExp1 = /(maria|joão)(, hoje sua esposa)/i;
 const found = regExp1.exec(texto);

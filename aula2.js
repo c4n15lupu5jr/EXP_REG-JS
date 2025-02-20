@@ -1,4 +1,4 @@
-const { texto } = require('./base');
+import { texto } from './base';
 const regExp1 = /João|Maria/gi;
 
 // (...( () ) )(...)(...) $1 $2 $3
